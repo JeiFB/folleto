@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: calc(100vh - 1px);
+}
+
+img{
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.container{
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.text{
+    background-color: var(--White);
+    border-radius: 0 0 15px 15px;
+
+}
+
+.perfume{
+    margin: 1rem 0 0 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--Dark-grayish-blue);
+}
+
+.text h1{
+    margin: 1.5rem;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.text .parrafo{
+    margin: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Dark-grayish-blue);
+    font-size: 15px;
+}
+
+.precio{
+    display: inline;
+    margin-left: 1.5rem;
+}
+
+.valorActual{
+    font-family:'Fraunces', sans-serif;
+    color: var(--Dark-cyan);
+    font-size: 30px;
+}
+
+.valorAnterior{
+    color: var(--Dark-grayish-blue);
+    text-decoration-line: line-through;
+}
+
+.boton{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 11px;
+    color: var(--White);
+    
+    background-color: var(--Dark-cyan);
+    padding: 1rem 7.5rem;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.boton + i{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
