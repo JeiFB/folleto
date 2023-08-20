@@ -85,23 +85,14 @@ img{
 .boton{
     display: block;
     margin: 0 auto;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    margin: 1rem 1rem 1rem 1rem;
     border: none;
     border-radius: 11px;
     color: var(--White);
-    
+    width: 90%;
     background-color: var(--Dark-cyan);
     padding: 1rem 7.5rem;
     font-size: 18px;
     font-weight: bolder;
-}
-
-.boton + i{
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
 }
 
